@@ -34,10 +34,12 @@ namespace Fighting
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == 't' || e.KeyChar == 'a' || e.KeyChar == 's' || e.KeyChar == 'd')
+            if (e.KeyChar == 'w' || e.KeyChar == 'a' || e.KeyChar == 's' || e.KeyChar == 'd')
             {
                 e.KeyChar = Char.ToUpper(e.KeyChar);
             }
+else if{
+}
             
         }
 

@@ -37,14 +37,14 @@ namespace Fighting
         }
         public void setHp(int h)
         {
-            if (h >= 0 && h < 10000)
+            if (h >= 0 && h < 5000)
             {
                 currentHp = h;   
             }
         }
         public void setMp(int h)
         {
-            if (h >= 0 && h < 1000)
+            if (h >= 0 && h < 2000)
             {
                 currentMp = h;
             }

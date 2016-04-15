@@ -41,7 +41,7 @@ namespace Fighting
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+		this.Text = "wow";
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -55,8 +55,6 @@ namespace Fighting
         {
             List<string> s = hero1.getList();
             Use_Item u = new Use_Item(ref s);
-            u.ShowDialog();
-            hero1.setList(s);
         }
     }
 }
